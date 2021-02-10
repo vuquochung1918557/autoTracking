@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Auto-Tracking React Native",
+    "slug": "auto-tracking-react-native",
+    "privacy": "public",
+    "sdkVersion": "39.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.6.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Auto-Tracking React Native",
+    "android": {
+      "package": "com.autotracking",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBSdKEW0gpB5TGdqLj7wM8gLfachmDeWb8"
+        }
+      }
+    }
+  }
+}
